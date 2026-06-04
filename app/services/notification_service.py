@@ -18,4 +18,4 @@ class NotificationService:
             for event in events:
                 print(f"Processed bounce for {event}")
         except Exception:
-            pass\n
+            pass

@@ -4,4 +4,4 @@ class User:
         self.username = username
         self.password_hash = password_hash
         self.email = ""
-        self.address = ""\n
+        self.address = ""

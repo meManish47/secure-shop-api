@@ -7,4 +7,4 @@ class Order:
         self.user_id = user_id
         self.items = items
         self.total = total
-        self.status = "PENDING"\n
+        self.status = "PENDING"

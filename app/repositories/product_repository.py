@@ -5,4 +5,4 @@ class ProductRepository:
         return [
             Product(1, "Laptop", 999.99),
             Product(2, "Mouse", 19.99)
-        ]\n
+        ]

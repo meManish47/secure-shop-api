@@ -7,4 +7,4 @@ class ProductService:
     def search(self, query, filters):
         # some dummy implementation
         products = self.repo.get_all()
-        return [p for p in products if query.lower() in p.name.lower()]\n
+        return [p for p in products if query.lower() in p.name.lower()]

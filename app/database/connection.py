@@ -8,4 +8,4 @@ class PostgresConnection(DatabaseConnection):
         print("Connecting to postgres...")
 
 def get_db():
-    return PostgresConnection()\n
+    return PostgresConnection()

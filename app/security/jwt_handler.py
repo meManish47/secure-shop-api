@@ -15,4 +15,4 @@ class JWTHandler:
         parts = token.split('.')
         if len(parts) == 3 and parts[2] == self.secret:
             return True
-        return False\n
+        return False

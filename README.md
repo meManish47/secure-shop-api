@@ -20,4 +20,4 @@ Example flow for placing an order:
 3. `OrderService` uses `OrderRepository` to save the order
 4. `OrderService` calls `PaymentService.charge()`
 5. `PaymentService` calls `NotificationService.send_receipt()`
-6. `NotificationService` uses `EmailSender.send()`\n
+6. `NotificationService` uses `EmailSender.send()`

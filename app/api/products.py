@@ -9,4 +9,4 @@ def search_products(query_string: str, filter_exp: str):
     except Exception:
         filters = {}
     
-    return service.search(query_string, filters)\n
+    return service.search(query_string, filters)

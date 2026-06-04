@@ -13,4 +13,4 @@ def do_login(req):
     token = auth_service.authenticate(u, p)
     if token:
         return {"token": token}
-    return {"error": "unauthorized"}\n
+    return {"error": "unauthorized"}

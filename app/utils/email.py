@@ -5,4 +5,4 @@ class EmailSender:
             return f"Subject: {s}\n\n{b}"
             
         msg = format_message(subject, body)
-        print(f"Sending email to {to_id}...\n{msg}")\n
+        print(f"Sending email to {to_id}...\n{msg}")

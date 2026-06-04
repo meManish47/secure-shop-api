@@ -6,4 +6,4 @@ class OrderRepository:
         self.orders[order.id] = order
         
     def find_by_id(self, order_id):
-        return self.orders.get(order_id)\n
+        return self.orders.get(order_id)

@@ -11,4 +11,4 @@ class UserRepository:
         return User(1, username, "dummyhash")
         
     def save(self, user):
-        pass\n
+        pass

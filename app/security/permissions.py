@@ -4,4 +4,4 @@ def require_auth(func):
         # Mock auth check
         print("Checking auth...")
         return func(*args, **kwargs)
-    return wrapper\n
+    return wrapper

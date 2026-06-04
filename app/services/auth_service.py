@@ -11,4 +11,4 @@ class AuthService:
         user = self.user_repo.find_by_username(username)
         if user and verify_password(password, user.password_hash):
             return self.jwt_handler.generate_token(user.id)
-        return None\n
+        return None

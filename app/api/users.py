@@ -21,4 +21,4 @@ def update_user_address(user_id: int, new_address: str):
         return {"error": "not found"}
     user.address = new_address
     user_service.save_user(user)
-    return {"status": "updated"}\n
+    return {"status": "updated"}

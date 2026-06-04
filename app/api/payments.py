@@ -5,4 +5,4 @@ def process_webhook(payload: dict):
     service = PaymentService()
     if payload.get("status") == "success":
         service.confirm_payment(payload.get("transaction_id"))
-    return {"status": "ok"}\n
+    return {"status": "ok"}

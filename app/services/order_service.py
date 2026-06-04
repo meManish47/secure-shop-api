@@ -34,4 +34,4 @@ class OrderService:
         filename = "/tmp/receipt_" + str(order.id) + ".txt"
         with open(filename, "w") as f:
             f.write(f"Receipt for order {order.id} - Total: {order.total}")
-        return filename\n
+        return filename

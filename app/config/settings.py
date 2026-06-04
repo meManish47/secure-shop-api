@@ -9,4 +9,4 @@ def load_config():
     db_port: 5432
     """
     # Vulnerability: unsafe yaml.load
-    return yaml.load(config_yaml, Loader=yaml.Loader)\n
+    return yaml.load(config_yaml, Loader=yaml.Loader)

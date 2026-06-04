@@ -9,4 +9,4 @@ def create_order(user_id: int, items: list):
 @require_auth
 def get_order_status(user_id: int, order_id: str):
     service = OrderService()
-    return service.get_status(order_id)\n
+    return service.get_status(order_id)
